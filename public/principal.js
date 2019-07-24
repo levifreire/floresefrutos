@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\r\\n    background-color: red;\\r\\n}\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/assets/css/estilo.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\r\\n    background-color: blue;\\r\\n}\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/assets/css/estilo.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
