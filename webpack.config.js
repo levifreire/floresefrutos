@@ -23,14 +23,16 @@ module.exports = {
         //regras
         rules: [{
             //criterio que sera usado para ler os arquivos
-            test: /\.css$/,
+            //regex
+            test: /\.s?[ac]ss$/,
             //utilizando plugins
             use: [
                 //extrai o arquivo css para fora
                 MiniCssExtractPlugin.loader,
                 //'style-loader', //adiciona dentro da DOM a tag <style>
                 //responsavel por interpretar os imports, as urls, entre outros
-                'css-loader'
+                'css-loader',
+                'sass-loader'
             ]
         }]
     }
