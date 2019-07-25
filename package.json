@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
+    "start": "webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Levi Freire",
   "license": "ISC",
   "devDependencies": {
+    "webpack-dev-server": "3.7.2",
     "file-loader": "4.1.0",
     "cross-env": "5.2.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
